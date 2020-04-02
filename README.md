@@ -14,20 +14,23 @@
 ## :mega: Tecnologias
  - [ Nodejs ]( https://nodejs.org/en/ )
  - [ Expressjs ]( https://expressjs.com/pt-br/ )
- - [ PostgreSQL ]( https://www.postgresql.org/ )
+ - [ SQLite ]( https://www.postgresql.org/ )
+ - [ React ]( https://pt-br.reactjs.org/ )
 
 ## :mega: Dependências
- - [ bcryptjs ]( https://www.npmjs.com/package/bcrypt ) 
  - [ express ]( https://www.npmjs.com/package/express )
- - [ jsonwebtoken ]( https://www.npmjs.com/package/jsonwebtoken )
- - [ pg ]( https://www.npmjs.com/package/pg )
- - [ pg-hstore ]( https://www.npmjs.com/package/pg-hstore )
- - [ sequelize ]( https://sequelize.org/ )
- - [ yup ]( https://github.com/jquense/yup ) 
+ - [ cors ]( https://www.npmjs.com/package/cors )
+ - [ knex ]( http://knexjs.org/ )
+ - [ SQLite ]( https://www.sqlite.org/index.html )
+ 
+ - [ axios ]( https://github.com/axios/axios )
+ - [ react-dom ]( https://pt-br.reactjs.org/docs/react-dom.html )
+ - [ react-icons ]( https://react-icons.netlify.com/#/ )
+ - [ react-router-dom ]( https://reacttraining.com/react-router/web/guides/quick-start )
 
 ## :mega: Pré-requisitos
 
-  Esse projeto faz uso de algumas tecnoligas de uso obrigario e que são necessarias serem instaldas no sistema. São elas:
+  Esse projeto faz uso de algumas tecnoligas de uso obrigario e que são necessarias serem instaladas no sistema. São elas:
   **Nodejs** na versão **12.14.1** ou superior e o **postgreSql**.
   
 ## :mega: Como Usar
@@ -36,7 +39,7 @@
   
   Para fazer o download do projeto abra o **```terminal```** e execute o comando abaixo: 
   ```
-  git clone https://github.com/bhyago/Fast-feet.git
+  git clone https://github.com/bhyago/beTheHero-Omministack.git
   ```
 * **Instalando as Dependências** 
 
@@ -44,35 +47,25 @@
   ```
   yarn
   ```
+  ou
+   ```
+  npm install
+  ```
   
 * **Inicialização do Banco de dados**
 
-  Dentro do diretorio *``` ./fastfeet/src/config/database```*, altere os dados de acordo com a configuração do seu bando de dados, exemplo:
-  ```JavaScript
-  module.exports = {
-  dialect: 'postgres',
-  host: 'localhost',
-  username: 'postgres',
-  password: 'suasenha',
-  database: 'fastfeet',
-  define: {
-    timestamps: true,
-    underscored: true,
-    underscoredAll: true,
-  },
-  };
-  ```
 
 * **Inicialização do servidor**
 
   Para inicializar o servidor, no terminal execute o comando:
   ```
-  yarn dev
+  yarn start
   ```
-  Se desejar iniciar o servidor juntamente com **```degub```** do **```vscode```**, execute o seguinte comando:
+  ou
   ```
-  yarn dev:degub
+  npm run start
   ```
+  
   #### :memo: Licença
 
   Esse projeto está sob a licença MIT. Veja o arquivo [LICENSE](LICENSE.md) para mais detalhes.
