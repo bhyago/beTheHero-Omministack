@@ -1,5 +1,5 @@
 <h1 align="center">
-  <img src="./frontend/src/assets/logo.svg" alt="Api rest node.js fastfeet" title="BeTheHero">
+  <img src="./frontend/src/assets/logo.svg" alt="Be the Hero" title="BeTheHero">
 </h1>
 
 <h4 align="center">app destinado a ongs <br>(<strong>em fase de desenvolvimento</strong>)</h4>
