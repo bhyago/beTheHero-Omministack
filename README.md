@@ -1,7 +1,7 @@
 <h1 align="center">
-  <img src="./src/assets/img/logo.png" alt="Api rest node.js fastfeet" title="Fastfeet">
+  <img src="./frontend/src/assets/logo.svg" alt="Api rest node.js fastfeet" title="BeTheHero">
   <br>
-  FastFeet
+  Be the Hero
 </h1>
 
 <h4 align="center">app para uma transportadora fictícia <br>(<strong>em fase de desenvolvimento</strong>)</h4>
