@@ -1,11 +1,8 @@
 <h1 align="center">
   <img src="./frontend/src/assets/logo.svg" alt="Api rest node.js fastfeet" title="BeTheHero">
-  <br>
-  Be the Hero
 </h1>
 
-<h4 align="center">app para uma transportadora fictícia <br>(<strong>em fase de desenvolvimento</strong>)</h4>
-<h6 align="center"><small>:octocat:</small></h6>
+<h4 align="center">app destinado a ongs <br>(<strong>em fase de desenvolvimento</strong>)</h4>
 
 <p align="center">
  <a href="#mega-Tecnologias">Tecnologias</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
